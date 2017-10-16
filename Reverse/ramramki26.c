@@ -1,4 +1,5 @@
-#include<iostream>
+#include<stdio.h>
+#include<conio.h>
 int main()
 {
   char str[50],rev[50];
