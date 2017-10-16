@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
-	int n, i, arr[50], search, first, last, middle;
+	int n, i, arr[50], search, first=0, last, middle;
 	printf("Enter total number of elements :");
 	scanf("%d",&n);
 	printf("Enter %d number :", n);
@@ -11,7 +12,7 @@ void main()
 	}
 	printf("Enter a number to find :");
 	scanf("%d", &search);
-	first = 0;
+	
 	last = n-1;
 	middle = (first+last)/2;
 	while (first <= last)
